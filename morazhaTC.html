@@ -52,12 +52,12 @@
     			text-transform: uppercase;
  			 }
 			  .imagestyle{
-                    width: 110px;
-                    height: 80px;
+                    width: 120px;
+                    height: 90px;
                     align-content: end;
                 
                 }
-				table, th, td {
+				.tablestyle {
   border: 1px solid black;
   border-collapse: collapse;
   padding-left: 5px;
@@ -249,9 +249,12 @@
 						
 					</select></td>
 				</tr>
+				<tr><td><br></td></tr>
 				<tr>
 					<td><h6 style="color: red; "> Please verify before generate TC </h6></td>
 				<td>
+					
+					
 				<input type="button" class="btn btn-primary"
 				onclick="GeneratePdf()" value="Generate TC"></td>
 			</tr>
@@ -320,88 +323,88 @@
 			
 			
 			
-		<table>
-		<tr>
-			<td><strong>Name of the student</strong></td>
+		<table class="tablestyle">
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Name of the student</strong></td>
 			
-			<td><strong><span class="uppercase">${name} </span></strong></td>
+			<td class="tablestyle"><strong><span class="uppercase">${name} </span></strong></td>
 		</tr>
-		<tr>
-			<td><strong>Date of Birth</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Date of Birth</strong> </td>
 			
-			<td><strong> ${dobdate}</strong> </td>
+			<td class="tablestyle"><strong> ${dobdate}</strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Date of Birth (in words)</strong></td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Date of Birth (in words)</strong></td>
 			
-			<td><strong><span class="uppercase"> ${dobwords}</span></strong> </td>
+			<td class="tablestyle"><strong><span class="uppercase"> ${dobwords}</span></strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Course</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Course</strong> </td>
 			
-			<td><strong> ${course}${honours}</strong> </td>
+			<td class="tablestyle"><strong> ${course}${honours}</strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Admission Date</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Admission Date</strong> </td>
 			
-			<td><strong> ${admission_date}</strong> </td>
+			<td class="tablestyle"><strong> ${admission_date}</strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Admission Number</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Admission Number</strong> </td>
 			
-			<td><strong> ${admn_No}</strong> </td>
+			<td class="tablestyle"><strong> ${admn_No}</strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Leaving Date</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Leaving Date</strong> </td>
 			
-			<td><strong> ${leaving_date}</strong> </td>
+			<td class="tablestyle"><strong> ${leaving_date}</strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Enrolled Semester</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Enrolled Semester</strong> </td>
 			
-			<td><strong> ${from_sem}</strong> </td>
+			<td class="tablestyle"><strong> ${from_sem}</strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Leaving Semester</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Leaving Semester</strong> </td>
 			
-			<td><strong> ${to_sem}</strong> </td>
+			<td class="tablestyle"><strong> ${to_sem}</strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Reason for leaving</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Reason for leaving</strong> </td>
 			
-			<td><strong><span class="uppercase"> ${reason}</span></strong> </td>
+			<td class="tablestyle"><strong><span class="uppercase"> ${reason}</span></strong> </td>
 		</tr>
 		
-		<tr>
-			<td><strong>Last Examination appeared</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Last Examination appeared</strong> </td>
 		
-			<td><strong><span class="uppercase"> ${exam_appeared} ${month_year}</span></strong> </td>
+			<td class="tablestyle"><strong><span class="uppercase"> ${exam_appeared} ${month_year}</span></strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Register Number</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Register Number</strong> </td>
 			
-			<td><strong><span class="uppercase"> ${regno}</span></strong> </td>
+			<td class="tablestyle"><strong><span class="uppercase"> ${regno}</span></strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Whether qualified for promotion</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Whether qualified for promotion</strong> </td>
 			
-			<td><strong> ${promotion}</strong> </td>
+			<td class="tablestyle"><strong> ${promotion}</strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Whether all dues to the college have been cleared</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Whether all dues to the college have been cleared</strong> </td>
 			
-			<td><strong> ${dues}</strong> </td>
+			<td class="tablestyle"><strong> ${dues}</strong> </td>
 		</tr>
 		
-		<tr>
-			<td><strong>Date of application for Transfer Certificate</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Date of application for Transfer Certificate</strong> </td>
 		
-			<td><strong> ${appli_date}</strong> </td>
+			<td class="tablestyle"><strong> ${appli_date}</strong> </td>
 		</tr>
-		<tr>
-			<td><strong>Student's Conduct and Character</strong> </td>
+		<tr class="tablestyle">
+			<td class="tablestyle"><strong>Student's Conduct and Character</strong> </td>
 			
-			<td><strong><span class="uppercase"> ${stcharacter}</span></strong> </td>
+			<td class="tablestyle"><strong><span class="uppercase"> ${stcharacter}</span></strong> </td>
 		</tr>
 		
 
