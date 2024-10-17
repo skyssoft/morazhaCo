@@ -63,6 +63,9 @@
   padding-left: 5px;
   padding-right: 3px;
 }
+body{
+	font-family: 'Times New Roman', Times, serif;
+}
 
 
 		</style>
@@ -72,14 +75,13 @@
 		
 		<div id="pdf-content">
 		<div class="container"  >
-			<h4 style="color: crimson; text-align: right;">Customer Care Support : 9544077151 </h4>
 			<div style="width: 200px; position: absolute; padding-top: 30px; padding-left: 40px; ">
 			<img src="morazhalogo.jpg" class="imagestyle">
 			</div>
 			<div>
 				
 			<div style="padding-left: 160px; padding-right: 200px;">
-			<h3 class="heading" style="padding-top: 25px;">
+			<h3 class="heading" style="padding-top: 25px; font-weight: bold;">
 				MORAZHA CO-OPERATIVE ARTS & SCIENCE COLLEGE
 					</h3>
 					
@@ -88,7 +90,7 @@
 		</h2>
 		
 	</div>
-		<h4 style="color: red; text-align: center;">Please verify before generate TC </h4>
+		<h4 style="color: red; text-align: center;"> Please verify before generate TC </h4>
 
 		<!-- Form encrypted as text -->
 		<form id ="form-print" enctype="text/plain" class="form-control" style="padding: 50px;">
@@ -301,7 +303,7 @@
 				</div>
 				<div style="text-align: center;">
 		
-				<h4>MORAZHA CO-OPERATIVE ARTS & SCIENCE COLLEGE</h4>
+				<h4 style="font-weight: bold;">MORAZHA CO-OPERATIVE ARTS & SCIENCE COLLEGE</h4>
 				<h6 style="margin-top:-3px;">A Unit of Morazha Educational Co-op: Society Ltd.No.C 1742</h6>
 				<h6 style="margin-top:-10px;">Approved by Govt. of Kerala & Affiliated to Kannur University</h6>
 				<h6>Morazha, P.O.Morazha, Kannur - 670 331, Ph:0497-2781944</h6>
@@ -317,7 +319,7 @@
 				</div>
 				</div>
 		
-		<div style="padding-left: 50px" ;>
+		<div style="padding-left: 50px ;margin-right:50px;">
 			
 			
 		<p><strong>T C Number: ${tcno}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date : ${tcdate}</strong></p>
@@ -570,4 +572,7 @@
 	</body>
 	</html>
 
-	
+	<!-- <tr style="border:solid width:1px">
+		<td><p><strong>T C Number: ${tcno}</strong></p></td>
+		<td></td>
+		<td style="text-align: right;"><strong>Date : ${tcdate}</strong></td> -->
